@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+<!--    font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="weather">
+            <div class="city">
+                <h1>Уфа</h1>
+            </div>
+            <div class="temperature">
+                <div class="temperature-item">
+                    <h1 class="temp"></h1>
+                    <img src="./img/weather2.png" alt="icon-weather">
+                </div>
+                <div class="temperature-item1">
+                    <h3 class="description"></h3>
+                    <p>Ощущается как: <span class="feelsTemp"></span></p>
+                </div>
+            </div>
+            <hr>
+            <div class="parameters">
+                <div>Скорость ветра: <span class="speed-wind"></span></div>
+                <div>Влажность: <span class="air-humidity"></span></div>
+            </div>
+            <button class="info-btn">Обновить погоду</button>
+        </div>
+    </div>
+<!--    Empty-->
+<script src="js/main.js"></script>
+</body>
+</html>
