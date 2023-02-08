@@ -19,7 +19,7 @@ body {
     width:100%;
     max-width:540px;
     margin-top: 20%;
-    padding:0 20px;
+    padding:0 10px;
     display: flex;
     flex-direction: column;
     gap:15px;
@@ -101,6 +101,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     border:none;
+    margin:15px 0px 5px;
     background-color: transparent;
     color: white;
     border:1px solid white;
